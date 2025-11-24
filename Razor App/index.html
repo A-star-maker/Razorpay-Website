@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razorpay - Accept Payments Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <svg width="130" height="36" viewBox="0 0 130 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="8" y="8" width="16" height="16" rx="2" fill="#3395FF"/>
+                        <rect x="32" y="8" width="16" height="16" rx="2" fill="#3395FF"/>
+                        <rect x="56" y="8" width="16" height="16" rx="2" fill="#3395FF"/>
+                        <text x="80" y="22" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#1A1A1A">Razorpay</text>
+                    </svg>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#payments">Payments</a></li>
+                    <li><a href="#banking">Banking+</a></li>
+                    <li><a href="#payroll">Payroll</a></li>
+                    <li><a href="#engage">Engage</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="btn-login">Login</button>
+                    <button class="btn-signup">Sign Up</button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel Section -->
+    <section class="hero-carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active" data-slide="0">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Advanced Payment Solutions<br>
+                            <span class="highlight">for India's boldest disruptors</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            100+ Payment Methods | Easy Integration | Powerful Dashboard
+                        </p>
+                        <div class="hero-actions">
+                            <button class="btn-primary">Sign Up Now</button>
+                            <button class="btn-secondary">Know More</button>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="payment-interface">
+                            <div class="payment-header">
+                                <div class="payment-logo">RP</div>
+                                <h3>₹ 455</h3>
+                            </div>
+                            <div class="payment-body">
+                                <div class="product-name">Body Lotion</div>
+                                <div class="payment-methods">
+                                    <div class="method active">UPI ID</div>
+                                    <div class="method">Netbanking</div>
+                                    <div class="method">Card</div>
+                                    <div class="method">EMI</div>
+                                </div>
+                                <div class="payment-input">
+                                    <input type="text" placeholder="Enter UPI ID" value="razorpay@upi">
+                                </div>
+                                <button class="pay-btn">Pay Now</button>
+                            </div>
+                            <div class="powered-by">POWERS <span class="brand-name">MAMAEARTH</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-slide" data-slide="1">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Automated Payroll<br>
+                            <span class="highlight">for India's boldest disruptors</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Automated Payroll & Compliances | Built for Startups & Enterprises
+                        </p>
+                        <div class="hero-actions">
+                            <button class="btn-primary">Sign Up Now</button>
+                            <button class="btn-secondary">Know More</button>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="payroll-interface">
+                            <div class="payroll-header">
+                                <h3>Payroll Solution</h3>
+                            </div>
+                            <div class="payroll-stats">
+                                <div class="stat-box">
+                                    <div class="stat-value">₹ 2,50,000</div>
+                                    <div class="stat-label">Total Payroll</div>
+                                </div>
+                                <div class="stat-box">
+                                    <div class="stat-value">45</div>
+                                    <div class="stat-label">Employees</div>
+                                </div>
+                            </div>
+                            <div class="payroll-list">
+                                <div class="payroll-item">
+                                    <span>Manish</span>
+                                    <span>₹ 45,000</span>
+                                </div>
+                                <div class="payroll-item">
+                                    <span>Priya</span>
+                                    <span>₹ 38,000</span>
+                                </div>
+                                <div class="payroll-item">
+                                    <span>Rahul</span>
+                                    <span>₹ 52,000</span>
+                                </div>
+                            </div>
+                            <div class="powered-by">POWERS <span class="brand-name">PURPLLE FOUNDER</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-slide" data-slide="2">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Effortless Banking<br>
+                            <span class="highlight">for India's boldest disruptors</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Powerful Automation | Smart Dashboard | Integrated Access
+                        </p>
+                        <div class="hero-actions">
+                            <button class="btn-primary">Sign Up Now</button>
+                            <button class="btn-secondary">Know More</button>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="banking-interface">
+                            <div class="banking-header">
+                                <h3>Current Account</h3>
+                            </div>
+                            <div class="balance-display">
+                                <div class="balance-amount">₹ 20,000</div>
+                                <div class="balance-label">Available Balance</div>
+                            </div>
+                            <div class="chart-container">
+                                <div class="chart-bars">
+                                    <div class="bar bar-1"></div>
+                                    <div class="bar bar-2"></div>
+                                    <div class="bar bar-3"></div>
+                                    <div class="bar bar-4"></div>
+                                    <div class="bar bar-5"></div>
+                                    <div class="bar bar-6"></div>
+                                </div>
+                                <div class="chart-labels">
+                                    <span>Jan</span>
+                                    <span>Feb</span>
+                                    <span>Mar</span>
+                                    <span>Apr</span>
+                                    <span>May</span>
+                                    <span>Jun</span>
+                                </div>
+                            </div>
+                            <div class="powered-by">POWERS <span class="brand-name">MYGATE FOUNDER</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-slide" data-slide="3">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Easy In-Store Payments<br>
+                            <span class="highlight">for India's boldest disruptors</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Quick Payments | Seamless Integration | Top-tier UPI stack
+                        </p>
+                        <div class="hero-actions">
+                            <button class="btn-primary">Sign Up Now</button>
+                            <button class="btn-secondary">Know More</button>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="pos-interface">
+                            <div class="pos-header">
+                                <h3>Razorpay POS</h3>
+                            </div>
+                            <div class="pos-amount">₹ 1,250</div>
+                            <div class="pos-methods">
+                                <div class="pos-method">UPI</div>
+                                <div class="pos-method active">Card</div>
+                                <div class="pos-method">Cash</div>
+                            </div>
+                            <div class="pos-card-swipe">
+                                <div class="card-icon">💳</div>
+                                <div class="swipe-text">Tap or Swipe Card</div>
+                            </div>
+                            <div class="powered-by">POWERS <span class="brand-name">WOW! MOMO FOUNDER</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-slide" data-slide="4">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            International Payments<br>
+                            <span class="highlight">for India's boldest disruptors</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Accept cards, bank transfers and Apple Pay from 180+ countries
+                        </p>
+                        <div class="hero-actions">
+                            <button class="btn-primary">Sign Up Now</button>
+                            <button class="btn-secondary">Know More</button>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="international-interface">
+                            <div class="intl-header">
+                                <h3>Pay Now</h3>
+                                <div class="intl-amount">$259.00 <span>USD</span></div>
+                            </div>
+                            <div class="currency-selector">
+                                <span>USD</span>
+                                <span>INR</span>
+                                <span>EUR</span>
+                            </div>
+                            <div class="card-preview">
+                                <div class="card-number-preview">5603 4397 3210 9876</div>
+                                <div class="card-expiry">12/29</div>
+                            </div>
+                            <div class="payment-options">
+                                <div class="option">Pay Using Card</div>
+                                <div class="option">Apple Pay</div>
+                                <div class="option">Bank Transfer</div>
+                            </div>
+                            <div class="powered-by">POWERS <span class="brand-name">HOUSE OF MASABA</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-btn prev" onclick="changeSlide(-1)">‹</button>
+            <div class="carousel-dots">
+                <span class="dot active" onclick="goToSlide(0)"></span>
+                <span class="dot" onclick="goToSlide(1)"></span>
+                <span class="dot" onclick="goToSlide(2)"></span>
+                <span class="dot" onclick="goToSlide(3)"></span>
+                <span class="dot" onclick="goToSlide(4)"></span>
+            </div>
+            <button class="carousel-btn next" onclick="changeSlide(1)">›</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Razorpay?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💳</div>
+                    <h3>100+ Payment Methods</h3>
+                    <p>Accept payments via Credit/Debit cards, UPI, Netbanking, Wallets, and more</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast Integration</h3>
+                    <p>Get started in minutes with our easy-to-integrate APIs and plugins</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Powerful Dashboard</h3>
+                    <p>Track transactions, manage settlements, and analyze your business growth</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Bank-Grade Security</h3>
+                    <p>PCI DSS Level 1 certified with 256-bit SSL encryption</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>International Payments</h3>
+                    <p>Accept payments from 180+ countries with global cards and Apple Pay</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Competitive Pricing</h3>
+                    <p>Transparent pricing with no hidden charges. Pay only for what you use</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Trusted by India's Boldest Disruptors</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Razorpay has transformed how we accept payments. The integration was seamless and the dashboard gives us complete control."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">G</div>
+                        <div class="author-info">
+                            <div class="author-name">Ghazal</div>
+                            <div class="author-role">Mamaearth Founder</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Automated payroll has saved us countless hours. RazorpayX makes business banking effortless."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <div class="author-name">Manish</div>
+                            <div class="author-role">Purplle Founder</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The current account and banking features have streamlined our entire financial operations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <div class="author-name">Abhishek</div>
+                            <div class="author-role">MyGate Founder</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2 class="section-title">Complete Payment Solutions</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">🏦</div>
+                    <h3>Payment Gateway</h3>
+                    <p>Accept online payments seamlessly with our robust payment gateway</p>
+                    <a href="#" class="product-link">Learn More →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">📱</div>
+                    <h3>Payment Links</h3>
+                    <p>Create and share payment links instantly via email, SMS, or WhatsApp</p>
+                    <a href="#" class="product-link">Learn More →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🔄</div>
+                    <h3>Subscriptions</h3>
+                    <p>Automate recurring payments with smart retry logic and dunning management</p>
+                    <a href="#" class="product-link">Learn More →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🏪</div>
+                    <h3>Razorpay POS</h3>
+                    <p>Accept in-store payments with our point-of-sale solution</p>
+                    <a href="#" class="product-link">Learn More →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">💼</div>
+                    <h3>RazorpayX</h3>
+                    <p>Business banking with current accounts, payouts, and payroll automation</p>
+                    <a href="#" class="product-link">Learn More →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🌐</div>
+                    <h3>International Payments</h3>
+                    <p>Accept global cards, bank transfers, and Apple Pay from 180+ countries</p>
+                    <a href="#" class="product-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Join 8M+ businesses that trust Razorpay for their payment needs</p>
+                <button class="btn-primary btn-large">Sign Up Now</button>
+                <p class="cta-note">No credit card required • Free setup • 24/7 Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>ACCEPT PAYMENTS</h4>
+                    <ul>
+                        <li><a href="#">Payment Gateway</a></li>
+                        <li><a href="#">Payment Links</a></li>
+                        <li><a href="#">Subscriptions</a></li>
+                        <li><a href="#">QR Codes</a></li>
+                        <li><a href="#">Razorpay POS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>BANKING PLUS</h4>
+                    <ul>
+                        <li><a href="#">RazorpayX</a></li>
+                        <li><a href="#">Current Accounts</a></li>
+                        <li><a href="#">Payouts</a></li>
+                        <li><a href="#">Corporate Credit Card</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>PAYROLL</h4>
+                    <ul>
+                        <li><a href="#">RazorpayX Payroll</a></li>
+                        <li><a href="#">Automated Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>DEVELOPERS</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>RESOURCES</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Customer Stories</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Razorpay. All Rights Reserved.</p>
+                <p class="footer-disclaimer">Razorpay Software Limited - An RBI Authorised Online Payment Aggregator</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
